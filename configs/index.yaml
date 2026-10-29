@@ -1,0 +1,8 @@
+model_name: sentence-transformers/all-MiniLM-L6-v2
+corpus_path: data/corpus.txt
+index_path: models/faiss.index
+nlist: 256
+pq_m: 8
+pq_nbits: 8
+nprobe: 32
+batch_size: 256
